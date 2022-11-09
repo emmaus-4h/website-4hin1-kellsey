@@ -53,21 +53,24 @@ p {
 .kolomlinkstekst {
   float:left;
   width:450px;
-  border-block: solid;
-  border-block-color: white;
-  
 }
 .kolomRechtstekst {
   float:Right;
   width:450px;
-  border-block: solid;
-  border-block-color: white;
 }
 .kolomrechtsfoto {
   float:right;
   width:250px;
   padding-left:10px;
+  padding-top: 5px;
 }
+  
+.kolommidden {
+  float: middle;
+  width:800px
+  border
+}
+
 .kolomStop {
                     /* stop met floaten */
 }
