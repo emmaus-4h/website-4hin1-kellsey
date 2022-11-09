@@ -45,7 +45,7 @@ p {
 
 /* Indeling voor hoofd pagina */
 
-.kolomLinks {
+.kolomLinksfoto {
   float:left;
   width:250px;
   padding-right:15px;           /* afstand tussen plaatje en rechterkolom */
@@ -53,18 +53,23 @@ p {
 .kolomlinkstekst {
   float:left;
   width:450px;
+  border-block: solid;
+  border-block-color: white;
+  
 }
-.kolomRechts {
+.kolomRechtstekst {
   float:Right;
   width:450px;
+  border-block: solid;
+  border-block-color: white;
 }
 .kolomrechtsfoto {
   float:right;
   width:250px;
-  padding-left:15px;
+  padding-left:10px;
 }
 .kolomStop {
-  clear:both;                   /* stop met floaten */
+                    /* stop met floaten */
 }
 
 /* Opmaak voor alle pagina's */
